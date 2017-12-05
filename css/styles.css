@@ -1,0 +1,70 @@
+header{
+  min-height: 80vh;
+    background-image: url("image/profil.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+  font-family: 'Gravitas One', cursive;
+  font-size: 2em;
+}
+
+h2{
+  font-family: 'EB Garamond', serif;
+  font-size: 1em;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: 'EB Garamond', serif;;
+    line-height: 1.5;
+}
+
+p{
+  font-family: 'EB Garamond', serif;
+}
+
+#bio h1{
+  text-align: center;
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin : 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio-content-block p {
+  max-width: 400px;
+}
+
+#comp h1{
+  text-align: center;
+}
+
+.comp-section-content{
+  max-width: 960px;
+  margin : 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comp-section-content h2{
+  text-align: center;
+}
+
+.comp-section-content p {
+  max-width: 300px;
+
+#portfolio h1 {
+text-align: center;
+}
