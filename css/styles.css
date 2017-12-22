@@ -107,12 +107,12 @@ p{
 
 .comp-section-content {
   display: flex;
-  padding-left: 90px;
-  padding-right: 90px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .comp-content {
-    max-width: 580px;
+    max-width: 280px;
     padding : 1em;
     flex-wrap: wrap;
 }
