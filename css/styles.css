@@ -1,26 +1,62 @@
 header{
   min-height: 80vh;
-    background-image: url("image/profil.jpg");
+    background-image: url("image/moimeme.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding-left: 40px;
 }
 
+.page02 header {
+    background-image: url("image/typo.jpg");
+}
+
+.page03 header {
+    background-image: url("image/mandala.jpg");
+}
+
+.page04 header {
+    background-image: url("image/identite.jpg");
+}
 
 h1{
-  font-family: 'Gravitas One', cursive;
-  font-size: 2em;
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  padding-top:20px;
+  padding-bottom: 20px;
+  color: #ffffff;
 }
 
 h2{
-  font-family: 'EB Garamond', serif;
-  font-size: 1em;
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  padding-top:20px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-align: center;
 }
 
+h4{
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  padding-top:20px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Noto Serif', serif;
+  padding-top:20px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-align: center;
+  font-size: 2em;
+}
 
 body {
     background-color: #fff;
@@ -28,8 +64,21 @@ body {
     line-height: 1.5;
 }
 
+h6{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
 p{
-  font-family: 'EB Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
+  text-align: justify;
+  padding-top: 15px
 }
 
 #bio h1{
@@ -51,21 +100,60 @@ p{
   text-align: center;
 }
 
-.comp-section-content{
-  max-width: 960px;
-  margin : 0 auto;
+.image-container img{
+    width: 100%;
+}
+
+
+.comp-section-content {
   display: flex;
-  justify-content: space-around;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.comp-content {
+    max-width: 580px;
+    padding : 1em;
+    flex-wrap: wrap;
 }
 
 .comp-section-content h2{
   text-align: center;
 }
 
-.comp-section-content p {
-  max-width: 300px;
+.portfolio-content{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-#portfolio h1 {
-text-align: center;
+.portfolio-content-item img{
+  width: 280px;
+  padding: 2em;
+}
+
+.illustration{
+  text-align: center;
+}
+
+.illustration-item img{
+  width: 180px;
+  padding: 1em;
+}
+
+footer{
+  list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5em;
+  background-color: #ADADAD;
+  padding: 3em;
+}
+
+.social-links li{
+  display: inline;
+  padding: 2em;
 }
